@@ -1,0 +1,34 @@
+.container__content{
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.container__cover{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.container__cover > img{
+  border: 2px solid rgb(78, 78, 78);
+  width: 80%;
+  min-width: 80%;
+  border-radius: 5px;
+}
+.container__title{
+  margin-top: 10px;
+  width: 80%;
+}
+.container__description{
+  margin-top: 10px;
+  width: 80%;
+}
+.container__description > p{
+  text-align: justify;
+}
+.container__content a{
+  margin-top: 20px;
+}
